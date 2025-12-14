@@ -1,0 +1,109 @@
+/* GENEL AYARLAR */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #f4f6f8; /* Hafif gri modern arka plan */
+}
+
+/* BUTONLAR */
+.button {
+    -fx-background-color: #34495e; /* Koyu Mavi */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 5; /* Yuvarlak köşeler */
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #2c3e50;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.button:pressed {
+    -fx-background-color: #1a252f;
+}
+
+/* ÖZEL BUTON RENKLERİ (Kodda class ekleyerek kullanacağız) */
+.success-button { -fx-background-color: #27ae60; } /* Yeşil */
+.success-button:hover { -fx-background-color: #219150; }
+
+.danger-button { -fx-background-color: #e74c3c; } /* Kırmızı */
+.danger-button:hover { -fx-background-color: #c0392b; }
+
+.info-button { -fx-background-color: #3498db; } /* Mavi */
+.info-button:hover { -fx-background-color: #2980b9; }
+
+.warning-button { -fx-background-color: #f39c12; } /* Turuncu */
+.warning-button:hover { -fx-background-color: #d35400; }
+
+/* TEXT FIELD (Yazı Kutuları) */
+.text-field, .password-field, .date-picker, .combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db; /* Odaklanınca mavi çerçeve */
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.2), 5, 0, 0, 0);
+}
+
+/* TABLO TASARIMI */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 10, 0, 0, 5);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 45px;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #ecf0f1 transparent;
+    -fx-padding: 5;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* TAB PANE (Personel Ekranı İçin) */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 5 5 0 0;
+    -fx-padding: 10 20;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #34495e;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: white;
+}
