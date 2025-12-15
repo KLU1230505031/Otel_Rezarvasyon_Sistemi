@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/JavaFX-GUI-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JavaFX-GUI-blue?style=for-for-the-badge"/>
   <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/OOP-Clean%20Code-success?style=for-the-badge"/>
 </p>
@@ -34,6 +34,7 @@ Proje, **genişletilebilir, bakımı kolay ve test edilebilir** bir yapı sağla
 ---
 
 ### 📐 Kullanılan Tasarım Desenleri (Design Patterns)
+
 
 | Tasarım Deseni | Kullanım Amacı |
 | :--- | :--- |
@@ -92,6 +93,7 @@ Projeyi yerel makinenizde hızlıca çalıştırmak için adımları izleyin:
     ```bash
     git clone [GitHub Adresiniz Buraya Gelecek]
     ```
+    *(Not: Lütfen bu kısma projenizin ana GitHub repository linkini ekleyiniz.)*
 2.  **Veritabanını Yapılandırın:**
     * MySQL sunucunuzda **`otel_db`** adında bir veritabanı oluşturun.
     * Proje dizinindeki **`database.sql`** dosyasını bu veritabanına import edin.
@@ -107,10 +109,10 @@ Projeyi yerel makinenizde hızlıca çalıştırmak için adımları izleyin:
 
 ## 👨‍💻 Geliştirici Ekibi
 
-| Geliştirici | Bağlantı (LinkedIn) |
-| :--- | :--- |
-| **Murat Aydoğan** | 🔗 https://www.linkedin.com/in/murat-aydo%C4%9Fan-51587b298/ |
-| **Kerem Yıldız** | 🔗 https://www.linkedin.com/in/murat-aydo%C4%9Fan-51587b298/ |
-| **Ömer Abalı** | 🔗 https://www.linkedin.com/in/omerabali/ |
+| Geliştirici | GitHub | LinkedIn |
+| :--- | :--- | :--- |
+| **Murat Aydoğan** | 🔗 https://github.com/murataydogan | 🔗 https://www.linkedin.com/in/murat-aydo%C4%9Fan-51587b298/ |
+| **Kerem Yıldız** | 🔗 https://github.com/KLU1230505031 | 🔗 https://www.linkedin.com/in/murat-aydo%C4%9Fan-51587b298/ |
+| **Ömer Abalı** | 🔗 https://github.com/omerabali | 🔗 https://www.linkedin.com/in/omerabali/ |
 
 ---
