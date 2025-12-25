@@ -112,7 +112,7 @@ Projeyi yerel makinenizde hızlıca çalıştırmak için adımları izleyin:
 | Geliştirici | GitHub | LinkedIn |
 | :--- | :--- | :--- |
 | **Murat Aydoğan** | 🔗 https://github.com/murataydogan | 🔗 https://www.linkedin.com/in/murat-aydo%C4%9Fan-51587b298/ |
-| **Kerem Yıldız** | 🔗 https://github.com/KLU1230505031 | 🔗 https://www.linkedin.com/in/kerem-y%C4%B1ld%C4%B1z-ba4bb1362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app / |
+| **Kerem Yıldız** | 🔗 https://github.com/yldz1kerem | 🔗 https://www.linkedin.com/in/kerem-y%C4%B1ld%C4%B1z-ba4bb1362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app / |
 | **Ömer Abalı** | 🔗 https://github.com/omerabali | 🔗 https://www.linkedin.com/in/omerabali/ |
 
 ---
